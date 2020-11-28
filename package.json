@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development"
+    "start:dev": "webpack serve"
   },
   "author": "Adam M Peacock",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
     "style-loader": "^0.23.0",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.1",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
